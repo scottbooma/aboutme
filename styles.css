@@ -1,0 +1,258 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+
+#mainheader {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #818181;
+    text-align: center;
+    z-index: 999;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 30px;
+}
+
+#menu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#menu li ul.submenu {
+  height: auto;
+  width: 132px;
+  background: #818181;
+  position: absolute;
+  display: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#menu li:hover ul.submenu {
+    display: block;
+}
+
+.submenu {
+  z-index: 999;
+}
+
+#menu li ul.submenu li {
+    width: 132px;
+    padding: 0;
+  }
+
+#menu li ul.submenu li a {
+  text-decoration: none;
+  padding: 10px 0px;
+  display: block;
+  width: 100%;
+}
+
+
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 2em;
+    width: 60%;
+}
+
+.nameheader {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.personalpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.titleheader {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.intro {
+  margin: 32px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#createimg {
+  height: 150px;
+  display: inline-block;
+}
+
+.create {
+  display: inline-block;
+}
+
+.create a {
+  text-decoration: none;
+  color: white;
+}
+
+.create a:visited {
+  text-decoration: none;
+}
+
+h3 {
+  display: inline-block;
+  margin: 5px;
+
+}
+
+table {
+  text-align: center;
+  border: solid 1px white;
+}
+
+.ski-video {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.island-steps {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.island-steps img {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.island-steps p {
+  text-align: center;
+}
+
+.ingredients {
+  width: 100%;
+  position: relative;
+}
+
+.ingredients h2 {
+  text-align: center;
+}
+
+.ingredients img {
+  float: left;
+  height: 550px;
+}
+
+.ingredient-list {
+  float: right;
+}
+
+.recipe {
+  position: relative;
+  clear: both;
+  padding-top: 20px;
+}
+
+.recipe h3 {
+  text-align: center;
+  display: block;
+}
+
+.recipe-step {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.recipe-steps li:nth-child(even) .recipe-step {
+  flex-flow: row-reverse nowrap;
+}
+
+.recipe-steps li:nth-child(odd) .recipe-step {
+  flex-flow: row nowrap;
+}
+
+.recipe-steps {
+  padding: 0;
+  list-style: none;
+}
+
+.recipe-step img {
+  width: 300px;
+  margin: 0 36px;
+}
+
+.recipe-step p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+footer {
+  padding-top: 15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }
+
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }
+
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }
+
+
