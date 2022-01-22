@@ -1,3 +1,9 @@
+
+html,
+body {
+  height: 100%;
+}
+
 body {
     margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -84,6 +90,10 @@ body {
     width: 60%;
 }
 
+p {
+  text-align: center;
+}
+
 .nameheader {
     text-align: center;
     font-size: 50px;
@@ -151,7 +161,7 @@ table {
 
 .island-steps {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .island-steps img {
@@ -222,9 +232,39 @@ table {
   margin-bottom: auto;
 }
 
+.revisions li:nth-child(even) .revision {
+  flex-flow: row nowrap;
+}
+
+.revisions li:nth-child(odd) .revision {
+  flex-flow: row-reverse nowrap;
+}
+
+.revisions {
+  padding: 0;
+  list-style: none;
+}
+
+.revision {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.revision img {
+  width: 300px;
+  border: solid 1px white;
+}
+
+.revision a {
+  margin: 0 30px;
+}
+
 
 footer {
-  padding-top: 15px;
+  height: 60px;
+  position: relative;
+  clear: both;
+  padding-top: 60px;
 }
 
 .fa {
